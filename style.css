@@ -1,0 +1,76 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgb(20, 79, 101);
+    background-size: cover;
+    height: 105px;
+}
+body{
+  background-image: url('https://wallpaperbat.com/img/184784-dmee-2020-hokkaido-univ-japan.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.lnavigation{
+    position: relative;
+    left: 180px;
+    top: 10px;
+}
+.rightnavigation{
+    position: relative;
+    right: 150px;
+    top: 40px;
+}
+.a{
+    padding: 15px;
+}
+button {
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #f5f5f5 0%, #fbff00 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+  button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+  }
+  
+  button:active {
+    box-shadow: inset 0px 0.1em 0.6em #e1ff00;
+    transform: translateY(0em);
+  }
+  .logo{
+    height: 
+    70px;
+    width: 80px;
+  }
+  .homecard{
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    top: 30px;
+  }
+  .section{
+    display: flex;
+    flex-direction: row;
+  }
+  .eagel{
+    margin-left: 190px;
+    margin-top: 60px;
+  }
+  
